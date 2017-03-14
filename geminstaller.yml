@@ -1,0 +1,8 @@
+---
+gems:
+- name: thewoolleyman-webgen
+  version: '>= 0.5.8'
+- name: RedCloth
+  version: '>= 4.0.4'
+# - name: gettalong-webgen
+#   version: '>= 0.5.5.20081001'

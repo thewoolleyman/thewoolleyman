@@ -1,0 +1,13 @@
+<style type="text/css">
+<--
+a:hover { text-decoration: underline; }
+a:link { text-decoration: none; color: white; }
+a:visited { text-decoration: none; color: white}
+a:visited:hover { text-decoration: underline; color: blue; }
+SPAN.align { text-align: center; }
+SPAN.glow { background: white; color: white; text-shadow: black 0px 0px 5px; }
+
+body { bgcolor: "#CCCCCC"; text: "black"; link: "black"; alink: "blue"; vlink: "blue"; } 
+
+//-->
+</style>

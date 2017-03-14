@@ -1,0 +1,13 @@
+RailsConf:
+* Doublecheck that VMWare keys and VMs work on all platforms
+* Doublecheck README for file names, etc
+* Burn DVDs
+* Update notes
+* Practice
+
+Future:
+* Lightning Talk / Pecha Kucha format
+* cruise.rb - mention hooks for metrics into notification / RSS feed
+* Stuff I haven't looked at: 
+  * roundhouse - hosted ci+svn services?
+  * campfire+tinder API? 

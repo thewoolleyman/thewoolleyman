@@ -1,0 +1,29 @@
+html {
+	background-color: black ;
+}
+body { 
+	font-size: 2em;
+	font-family: arial;
+	color: white;
+}
+ h1 {
+	text-align: center; 
+	color: yellow;
+}
+span.logo {
+	float: left;
+}
+.header:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+.header {
+	margin-bottom: 20px;
+}
+a {
+	color: white;
+}	
+input[type="text"] {
+	font-size: 0.7em; 
+}

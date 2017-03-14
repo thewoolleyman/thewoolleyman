@@ -1,0 +1,77 @@
+Tutorial: CI for the Rails Guy or Gal
+README for Tutorial Resources
+
+-------------------------
+Errata:
+-------------------------
+- Windows instructions for VMware Server are outdated for the VMware server 2.0 Beta (major changes from 1.x).  However, VMware Player is easy to use and works fine with the included CI VMs.
+
+-------------------------
+Quick Start Instructions:
+-------------------------
+- Get the Tutorial Resources off of a DVD, USB Flash Drive or download from http://thewoolleyweb.com/ci_for_the_rails_guy_or_gal
+- Install VMware and get a license key from https://www.vmware.com/tryvmware/
+  - For Mac, install VMware Fusion
+  - For Windows, install the free VMware player, or the VMware server if you want to create new VMs.  VMware player is recommended; VMware Server is more complicated (see details below).
+- Install a RAR uncompress utility from /tools
+- Uncompress the Virtual Machine /virtual_machines/Ubuntu_With_CI_Downloads.vmwarevm.rar
+- Review instructional screenshots for opening a VM copy in /presentation/screenshots/03_virtual_machine_copy
+- Open the uncompressed .vmx file "Ubuntu_With_CI_Downloads.vmx" in VMware
+- Start following the Presentation in /presentation/ci_for_the_rails_guy_or_gal.pdf
+- ID/Password are ci/password
+
+----------------------
+Detailed Instructions:
+----------------------
+Source on GitHub:
+
+- The latest version of this presentation (but no big install files or virtual machine images) is available on GitHub: http://github.com/thewoolleyman/ci_for_the_rails_guy_or_gal
+
+Tutorial Resource Directory Contents:
+
+(NOTE: DVDs or USB Flash drives distributed during the tutorial may not have the larger files which will not be used, such as the Ubuntu ISO image, Ubuntu_Base, or OpenOffice installation files, but these are available on the website)
+
+- presentation: Contains presentation in OpenOffice and PDF format
+  - screenshots:   
+    - 01a_mac_vmware_fusion_screenshots: Screenshots of Ubuntu VM Creation on Mac VMware Fusion
+    - 01b_win_vmware_server_screenshots: Screenshots of Ubuntu VM Creation on Windows VMware Server (NOTE: Outdated for VMware Server 2 Beta)
+    - 02_ubuntu_vm_setup_screenshots: Screenshots of completing Ubuntu VM installation
+    - 03_virtual_machine_copy: Screenshots of copying an existing VM
+- tools: Software and other useful downloads
+  - font: FreeSansBold.ttf font required for OpenOffice presentation to render correctly on some platforms, like Linux.
+  - open_office: OpenOffice install packages for multiple platforms
+  - stuffit: RAR extract program for Mac
+  - ubuntu_cd_iso: ISO image of Ubuntu Desktop 7.10
+  - vmware: Install packages and URL for getting a VMWare Evaluation Key, and some recent keys that may work
+  - winrar: RAR extract program for Windows
+- virtual machines: Virtual Machine Images
+  - Ubuntu_Base.vmwarevm.rar: Base Ubuntu Install
+  - Ubuntu_With_CI_Downloads.vmwarevm.rar: Base Ubuntu with VMWare Tools and all downloads required for tutorial, but no steps completed
+  - Completed_CI_Tutorial.vmwarevm.rar: Completed Tutorial with all steps already performed
+
+A. Install VMware
+- The /tools/vmware directory has installation packages and a pointer to the URL to sign up for a VMware Evaluation Key.  VMware Player and Server are for windows, and VMWare Fusion is for Mac.  VMware Player is free, but can only play existing VMs, not create new ones.  Recent (2 weeks before RailsConf 2008) trial keys are in this directory, but they may not work.
+  - For Mac, install the VMware fusion .dmg file.
+  - For Windows, install VMware Player, it's the easiest way to open a pre-created VM.  If you want to create VMs from scratch, you'll have to use VMware server, but this is more complicated, and you're mostly on your own.  Important hints: 1) Userid/Password for web ui are your local OS id/pw.  2) To open an existing VM, copy the *.vmwarevm folder to your 'datastore' - find the local directory for this in the "summary" page. 
+
+B. Install VMware Image
+
+B.1 Instructions for starting with an existing VM Image
+
+- Install VMware for your OS from /tools/vmware/...
+- Copy desired VM image from /virtual_machines to the VMware 'Virtual Machines' directory
+  - Use Ubuntu_With_CI_Downloads to do all the non-download steps yourself
+  - Use CI_Completed to see all steps completed
+- Extract (unrar) the image using the extract tool: stuffit for mac or winrar for windows
+- Open the VM using steps in presentation/screenshots/03_virtual_machine_copy
+
+
+B.2 Instructions for starting from scratch
+
+-  Download Ubuntu ISO from /tools/ubuntu_cd_iso
+- Follow instructions in tutorial and/or screenshots in /presentation/screenshots/01...
+
+C. Completing Tutorial
+
+- Use the Virtual Machine and follow instructions in presentation
+- ID/Password are ci/password
