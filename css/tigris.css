@@ -9,14 +9,14 @@ body {
  color: #000;
  }
 .app h3, .app h4, .tabs td, .tabs th, .functnbar {
- background-image: url(../images/nw_min.gif);
+ background-image: none;
  background-repeat: no-repeat;
  }
 #toptabs td, #toptabs th {
- background-image: url(../images/nw_min_036.gif);
+ background-image: none;
  }
 #navcolumn .body div, body.docs #toc li li  {
- background-image: url(../images/strich.gif);
+ background-image: none;
  background-repeat: no-repeat;
  background-position: .5em .5em;
  }
@@ -109,19 +109,19 @@ body.docs div.docs {
  border-top: 1px solid #ddd;
  }
 body.docs { 
- background: #eee url(../images/help_logo.gif) top right no-repeat !important;
+ background: #eee !important;
  }
 .docs h3, .docs h4 {
  border-top: solid 1px #000;
  }
 #alerterrormessage { 
- background: url(../images/icon_alert.gif) top left no-repeat !important;
+ background: none !important;
  }
 .functnbar {
  background-color: #aaa;
  }
 .functnbar2, .functnbar3  {
- background: #aaa url(../images/sw_min.gif) no-repeat bottom left;
+ background: #aaa;
  }
 .functnbar3 {
  background-color: #ddd;
