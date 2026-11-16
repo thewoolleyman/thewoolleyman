@@ -36,6 +36,38 @@ padding: 10px;
 border-bottom: 10px;
 }
 
+#header.contact-header {
+background: #000000;
+color: #ffffff;
+text-align: center;
+}
+
+#header.contact-header h1 {
+font-size: 3.5em;
+padding-bottom: 0;
+}
+
+#header .contact-details {
+font-size: 2em;
+font-style: italic;
+font-weight: bold;
+margin: 0;
+padding: 0 10px 10px;
+overflow-wrap: anywhere;
+}
+
+#header .contact-qr {
+width: 1em;
+height: 1em;
+vertical-align: -0.125em;
+}
+
+@media (max-width: 770px) {
+#container.contact-page {
+min-width: 0;
+}
+}
+
 
 /*** Content ***/
 #content a {
